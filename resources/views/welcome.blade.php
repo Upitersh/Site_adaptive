@@ -13,21 +13,21 @@
     <title>Business Casual - Start Bootstrap Theme</title>
 
     <!-- Bootstrap core CSS -->
-    <link href = "{{asset('public/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" >
+    <link href = '../../public/vendor/bootstrap/css/bootstrap.min.css' rel="stylesheet" >
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
-    <link href = "{{asset('public/css/business-casual.css')}}"  rel="stylesheet">
+    <link href = '../../public/css/business-casual.css' rel="stylesheet">
 
   </head>
 
   <body>
 
-    <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">Business Casual</div>
-    <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
+    <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">Business blog for successful men</div>
+    <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">Brovki avenue, 10</div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
@@ -44,13 +44,13 @@
               </a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="{{asset('public/about.html')}}">About</a>
+              <a class="nav-link text-uppercase text-expanded" href="../../public/about.html">About</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="{{asset('public/blog.html')}}">Blog</a>
+              <a class="nav-link text-uppercase text-expanded" href='../../public/blog.html'>Blog</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="{{asset('public/contact.html')}}">Contact</a>
+              <a class="nav-link text-uppercase text-expanded" href='../../public/contact.html'>Contact</a>
             </li>
           </ul>
         </div>
